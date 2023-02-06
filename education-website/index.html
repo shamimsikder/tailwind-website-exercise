@@ -11,23 +11,25 @@
     <!--Tailwind CSS-->
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!--Google Font-->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 
-<body class="font-poppins">
+<body>
 
-   <header>
+   <header class="w-full max-w-7xl mx-auto">
 
-    <!--Navigation Bar-->
+    <!--Navigation Bar Section-->
 
-    <nav class="w-full max-w-7xl mx-auto h-20">
+    <nav>
 
         <div class="flex justify-between items-center h-20">
 
-            <h1 class="text-2xl font-bold text-slate-700">Pro Edu</h1>
+            <h1 class="text-2xl font-bold text-slate-700 ">Pro Edu</h1>
 
+            
+          
             <ul class="flex gap-8 text-slate-400">
                 <li><a href=""></a>Home</li>
                 <li><a href=""></a>Courses</li>
@@ -42,6 +44,16 @@
         </div>
 
     </nav>
+
+    <!--Banner Section-->
+
+    <section class="bgimage flex gap-10 flex-col justify-center items-center">
+
+        <h1 class="text-6xl text-white text-center">Get Started Digital<br>Learning</h1>
+        <p class="text-white text-center w-2/4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        <button class="px-6 py-2 rounded-md text-white bg-blue-600 text-center">Get Started</button>
+        
+    </section>
 
    </header>
 
